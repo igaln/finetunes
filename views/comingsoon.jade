@@ -1,0 +1,29 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(href='https://fonts.googleapis.com/css?family=Abel', rel='stylesheet', type='text/css')
+    link(href='//cdn-images.mailchimp.com/embedcode/slim-081711.css', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Josefin+Sans:700', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700', rel='stylesheet', type='text/css')
+    meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0")
+  body(id="fullbg" class="filter")
+    block content
+    script(src='/javascripts/build/react.min.js')
+    script(src='/javascripts/build/header.js')
+
+
+  #content-wrapper
+      #content
+          h1 Finetune your playlist
+          h2 Want to listen to every song written by Drake’s ghostwriter? Or every artist that’s been featured on a Kanye track? From hip hop to rock to jazz, Finetunes creates connections between songs and their credits so you can make the ultimate playlist.
+
+          #mc_embed_signup
+              form#mc-embedded-subscribe-form.validate(action='//finetun.us11.list-manage.com/subscribe/post?u=d9c143775db6f51fdc0dcd269&id=df62cb2a14', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
+                  #mc_embed_signup_scroll
+                      input#mce-EMAIL.email(type='email', value='', name='EMAIL', placeholder="Coming soon...", required='')
+                      div(style='position: absolute; left: -5000px;')
+                          input(type='text', name='b_d9c143775db6f51fdc0dcd269_df62cb2a14', tabindex='-1', value='')
+                      .clear
+                          input#mc-embedded-subscribe.button(type='submit', value='Notify Me!', name='subscribe')

@@ -7,3 +7,10 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
+
+/* GET coming soon page */
+router.get('/comingsoon', function(req, res, next) {
+  res.render('comingsoon', { title: 'Coming Soon' });
+});
+
+module.exports = router;
